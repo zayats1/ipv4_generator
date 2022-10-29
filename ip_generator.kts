@@ -21,7 +21,7 @@ fun generateIPAddressesTable(quantity: Int, ip_network_class: ipNetworkClass): A
 
     val ip_addreses = Array<String>(quantity, {
         i ->
-        "$first_num.$num.$num.$i $mask" // the line don't formats
+        "$first_num.$num.$num.$i $mask" // the line doesn't format
     })
     return ip_addreses
 }
